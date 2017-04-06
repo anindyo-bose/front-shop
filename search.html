@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Search:New Chandan Musicals</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+      
+        <center>
+            <br>
+            <br>
+            <form action="Search.jsp" >
+                <table><tr><td>Search By ID </td>
+                        <td><input type="text" name="id" /></td>
+                        <td><input type="submit" value="Go" /></td></tr></table></form><br>
+
+            <form action="nSearch.jsp"> <table><tr>
+                 <td>Search By Name</td><td><input type="text" name="naam"/></td>
+                 <td><input type="submit" value="Go" /></td> </tr></table></form><br>
+
+            <form action="searchby.jsp"> <table>
+                 <tr><td>Search By Type</td> <td><select name="type">
+                    <option value="Air">Air</option>
+                    <option value="Lather">Lather</option>
+                    <option value="String">String</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Books">Books</option>
+                    <option value="Mics">Mics</option>
+                    </select></td><td>
+                    <input type="submit" value="Go" /></td> </tr></table>
+            </form>
+            </center>
+    </body>
+</html>
